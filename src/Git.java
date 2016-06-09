@@ -29,6 +29,7 @@ public class Git {
 			acumulador += vectorDeVentas[i];
 
 		}
+		System.err.println("Estoy calculando la media");
 		media = acumulador / vectorDeVentas.length;
 		return media;
 
